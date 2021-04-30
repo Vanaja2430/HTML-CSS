@@ -1,17 +1,78 @@
-h1 {
+h1 
+    {
         color: rgb(49, 42, 61); 
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
         font-size: 43px;
+        border: 1px dotted black;
+    }
+h2 
+    {
+        color: rgb(36, 94, 45); 
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 33px;        
     }
 
-div {
+ul li 
+    {
+        color: rgb(36, 94, 45); 
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 21px;
+        padding: 6px;        
+    }
+
+ol li 
+    {
+        color: rgb(175, 26, 175); 
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 21px;
+        padding: 6px;        
+    }
+
+a 
+    {
+        color: rgb(50, 12, 221); 
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 21px;
+        padding: 6px;        
+    }
+
+div
+    {
         background-color: rgb(207, 225, 233);
         width: 250px;
         height: 490px;
-        border: red;
+        border: 1px dotted black;
         padding: 6px;
-        margin:10px;
+        margin:6px;
         font-size: 17px;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
+
+button 
+    {
+        background-color: rgb(207, 225, 233);
+        width: 150px;
+        height: 49px;
+        border: 1px dotted black;
+        padding: 6px;
+        margin:6px;
+        background-color: rosybrown;
+        font-size: 17px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        display: flex;
+        flex-wrap: wrap;        
+    }
+button:hover
+    {
+        background-color: rgb(250, 241, 114);
+    }
+
+@media (min-width: 600px){body{background-color: rgb(236, 219, 219);}}
+@media (max-width: 596px){body{background-color: rgb(201, 201, 241);}}
+
+
