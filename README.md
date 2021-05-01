@@ -1,4 +1,5 @@
-Web Development{
+Web Development
+{
     1. Languages and Tools
     2. Key Concepts
         {
