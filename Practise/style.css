@@ -1,3 +1,31 @@
+
+body
+    {
+        padding:30px;
+    }
+section{
+    article{
+        max-width:420px;
+        background: #fafafa;
+        border-radius:15px;
+        padding:15px;
+        cursor: pointer;
+        .img{
+            height:180px;
+            background-color: #ccc;
+        }
+        h2{
+            margin-top:10px;
+        }
+        &.v1{
+            &:hover{
+                background: #e1e1e1;
+            }
+        }
+    }
+    
+}
+/*
 h1 
     {
         color: rgb(49, 42, 61); 
@@ -74,5 +102,6 @@ button:hover
 
 @media (min-width: 600px){body{background-color: rgb(236, 219, 219);}}
 @media (max-width: 596px){body{background-color: rgb(201, 201, 241);}}
+
 
 
