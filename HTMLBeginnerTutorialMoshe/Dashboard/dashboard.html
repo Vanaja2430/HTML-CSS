@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <p>This is a paragraph.</p>
+    <p>This is another paragraph.</p>
+
+    <ol>
+      <li>List item 1</li>
+      <li>List item 2</li>
+      <li>List item 3</li>
+
+      <button id="btn1">Prepend text</button>
+      <button id="btn2">Prepend list item</button>
+    </ol>
+
+    <p>
+      Click the button to add a new row at the first position of the table and
+      then add cells and content.
+    </p>
+
+    <table id="myTable">
+      <th>
+        <tr>
+          <td>fname</td>
+          <td>lname</td>
+        </tr>
+      </th>
+      <tr>
+        <td>Row1 cell1</td>
+        <td>Row1 cell2</td>
+      </tr>
+      <tr>
+        <td>Row2 cell1</td>
+        <td>Row2 cell2</td>
+      </tr>
+      <tr>
+        <td>Row3 cell1</td>
+        <td>Row3 cell2</td>
+      </tr>
+    </table>
+    <br />
+    <form id="frm1" action="/action_page.php">
+      First name: <input type="text" name="fname" value="Donald" /><br />
+      Last name: <input type="text" name="lname" value="Duck" /><br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <button type="button" onclick="myFunction()">Try it</button>
+
+    <script src="dashboard.js"></script>
+  </body>
+</html>
